@@ -1,11 +1,7 @@
 package game;
 
-//Made by Vasco and Prof Luis.
-
 import environment.Board;
 import environment.LocalBoard;
-
-
 
 public class Goal extends GameElement  {
 	private int value=1;

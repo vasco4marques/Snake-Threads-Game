@@ -1,6 +1,6 @@
 package game;
 
-//Made by Vasco and Prof Luis. <3
+//Made by Vasco and Prof Luis. 
 
 import environment.Board;
 import environment.LocalBoard;

@@ -24,7 +24,7 @@ public class Goal extends GameElement  {
 	//Increments the goal value
 	public void incrementValue() throws InterruptedException {
 		if(value<MAX_VALUE)
-			value++;
+			value+=1;
 	}
 
 	//Everything that envolves capturing the goal -> Incrementing its value, removing itself from the board and inserting himself again 

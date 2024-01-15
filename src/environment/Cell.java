@@ -1,7 +1,6 @@
 package environment;
 
 import java.io.Serializable;
-
 import game.AutomaticSnake;
 import game.GameElement;
 import game.Goal;
@@ -17,12 +16,12 @@ public class Cell implements Serializable {
 	private BoardPosition position;
 	private Snake ocuppyingSnake = null;
 	private GameElement gameElement=null;
-
-	
 	
 	public Cell(BoardPosition position) {
+		
 		super();
 		this.position = position;
+		
 	}
 	
 	//Returns the cell Game Element
